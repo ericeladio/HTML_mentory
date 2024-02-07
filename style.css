@@ -1,11 +1,110 @@
+body{
+    font-family: 'Hanken Grotesk', sans-serif;;
+}
+.container{
+    display: flex;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -webkit-box-shadow: 7px 7px 5px #b9bab8;
+    -moz-box-shadow: 7px 7px 5px #b9bab8;
+    box-shadow: 7px 7px 5px #b9bab8;
+    background-color: #DDDDDD; 
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12pt;
+    color: #888888;
+    text-align: center;
+    border-radius: 8px;
+    height: 370px;
+    max-width: 650px; 
+}
+.circle-container{
+    background-color: #8B5CF6;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.result{
+  margin: 15px 0px;
+  color: grey;
+  opacity: 0.8; /* pendiente */
+}
+
+.number-score{
+  font-size: 55px;
+  color: white;
+  font-weight: bold;
+}
+
+.score{
+  font-size: 13px;
+}
+
+.great{
+  color: white;
+  font-size: 25px;;
+  margin-top: 15px;
+}
+
+.text-score{
+  margin-top: 25px;
+  width: 75%;
+  color: gray; /* pendiente */
+}
+
 .circle{
-    width: 300px;
-    height: 300px;
-    background-color: #1b0ceb;
+    width: 150px;
+    height:150px;
+    background-color: #5456f0;
     border-radius: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.summary-container{
+    flex: 1;
+    border-radius: 8px;
+}
+
+.summary-title{
+    margin: 15px 0px;
+    color: blue;
+}
+
+.container-details{
+    display: flex;
+    /*flex-direction: column;*/
+    align-items: space-between;
+    flex: 7;
+    background-color: red;
+}
+
+.detail{
+
+}
+
+.icon-container{
+
+}
+
+.icon{
+
+}
+
+.icon-name{
+
+}
+
+.icon-score{
+
+}
+
+.button{
+    flex: 2;
 }
