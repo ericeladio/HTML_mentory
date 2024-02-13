@@ -32,9 +32,7 @@ body {
 
 .result {
   margin: 15px 0px;
-  color: grey;
-  opacity: 0.8;
-  /* pendiente */
+  color: azure;
 }
 
 .number-score {
@@ -57,8 +55,7 @@ body {
 .text-score {
   margin-top: 25px;
   width: 75%;
-  color: gray;
-  /* pendiente */
+  color: azure;
 }
 
 .circle {
