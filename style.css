@@ -128,3 +128,14 @@ body {
   margin: 0 auto;
   margin-bottom: 15px;
 }
+
+@media screen and (max-width: 730px) {
+  .container{
+    flex-direction: column;
+    height: auto;
+  }
+
+  .summary-title, .detail{
+    margin-bottom: 15px;
+  }
+}
